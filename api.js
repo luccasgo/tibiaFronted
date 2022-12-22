@@ -1,16 +1,16 @@
 export class Api {
-    static baseUrl = "ec2-3-88-230-247.compute-1.amazonaws.com:8080"
+    static baseUrl = "http://ec2-3-88-230-247.compute-1.amazonaws.com:8080"
     static headers = {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin" : "*",
         "Access-Control-Allow-Methods": "POST",
+        "Host": "3.88.230.247:8080",
+        "Allow" : "*"
     }
     
 
     static async SendPersonagemData(data) {
-        console.log(this.headers)
         const url = this.baseUrl + "/personagem/checar"
-        let responseStatusCode = null
 
         const response = await fetch(url,
             {

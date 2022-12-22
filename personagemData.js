@@ -3,6 +3,7 @@ import { Api } from "./api.js"
 class PersonagemData {
     static async SendPersonagemData() {
         
+        
         const personagemName = document.getElementById("personagemNameInput").value;
         const pontuacao = document.getElementById("pontuacaoInput").value;
         const textPontuacao = document.getElementById("exibePontuacaoField");
@@ -28,6 +29,6 @@ function loadEvent() {
     })
 }
 
-console.log("TESTE CARAIOO")
+
 
 loadEvent();
