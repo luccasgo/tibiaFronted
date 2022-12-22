@@ -1,0 +1,24 @@
+body {
+ background-color: #333333;   
+}
+
+#formDiv {
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #152238 ;
+    padding: 10px;
+}
+
+#resultDiv{
+    position: static;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: xx-large;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #152238;
+    padding: 10px;
+}
