@@ -20,7 +20,6 @@ class PersonagemData {
 }
 
 function loadEvent() {
-    console.log("BUTAO FODASE");
     const sendButton = document.getElementById("sendButton");
 
     sendButton.addEventListener("click", async (event) => {
