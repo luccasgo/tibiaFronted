@@ -28,4 +28,6 @@ function loadEvent() {
     })
 }
 
+console.log("TESTE CARAIOO")
+
 loadEvent();
