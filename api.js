@@ -4,7 +4,8 @@ export class Api {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin" : "*",
         "Access-Control-Allow-Methods": "POST",
-        "Host": this.baseUrl
+        "Host": this.baseUrl,
+        "Access-Control-Allow-Credentials" :false
     }
     
 
