@@ -1,11 +1,7 @@
 export class Api {
-    static baseUrl = "http://52.201.97.232:8080"
+    static baseUrl = "https://52.201.97.232:8080"
     static headers = {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin" : "*",
-        "Access-Control-Allow-Methods": "POST",
-        "Host": "3.88.230.247:8080",
-        "Allow" : "*"
+        "Content-Type": "application/json"
     }
     
 
