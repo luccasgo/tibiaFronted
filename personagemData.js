@@ -5,7 +5,7 @@ class PersonagemData {
         
         
         const personagemName = document.getElementById("personagemNameInput").value;
-        const pontuacao = document.getElementById("pontuacaoInput").value;
+        const pontuacao = 0;
         const textPontuacao = document.getElementById("exibePontuacaoField");
 
         const personagem = {

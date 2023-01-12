@@ -1,5 +1,5 @@
 export class Api {
-    static baseUrl = "ec2-52-91-196-29.compute-1.amazonaws.com:8080"
+    static baseUrl = "http://ec2-52-91-196-29.compute-1.amazonaws.com:8080"
     static headers = {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin" : "*",
