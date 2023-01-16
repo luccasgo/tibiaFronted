@@ -1,5 +1,5 @@
 export class Api {
-    static baseUrl = "https://52.201.97.232:8080"
+    static baseUrl = "https://pontuacoestibia.herokuapp.com"
     static headers = {
         "Content-Type": "application/json"
     }
